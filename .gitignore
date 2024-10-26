@@ -1,0 +1,12 @@
+
+pii_model/**
+tb_logs/**
+train/**
+validation/**
+*.ckpt
+*.csv
+
+.vscode/**
+.vscode-server/**
+.idea/**
+.lightning_studio/**
