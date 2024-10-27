@@ -3,7 +3,7 @@
 
 You can find project related trained models and weights in the below link 
 
-(Mini PII Agent))[https://huggingface.co/hyacinthum/Mini_PII_Agent]
+[Piidgeon Agent](https://huggingface.co/hyacinthum/Piidgeon)
 
 To use the model, use the following to load it directly from huggingface:
 ```python
