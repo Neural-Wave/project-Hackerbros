@@ -27,3 +27,13 @@ miniagent_tokenizer = BertTokenizerFast.from_pretrained("google-bert/bert-base-m
 miniagent_model.config.id2label = {0: 'O', 1: 'I-ACCOUNTNUM', 2: 'I-IDCARDNUM'}
 miniagent_model.config.label2id = {'O': 0, 'I-ACCOUNTNUM': 1, 'I-IDCARDNUM': 2}
 ```
+
+To run the evalutation of model please use below code :
+```bash
+python inference.py -s path/to/evalutaion_file/example.jsonl -m pii_model
+```
+
+## Video showcase
+
+[Video link](https://youtu.be/leFG8oPcXs0)
+
